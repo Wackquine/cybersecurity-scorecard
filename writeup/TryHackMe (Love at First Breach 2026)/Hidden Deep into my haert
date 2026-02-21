@@ -1,1 +1,17 @@
+1️⃣ Recon
+Accessed target URL
+Checked page & source
 
+2️⃣ robots.txt
+Found /cupids_secret_vault
+Found clue: cupid_arrow_2026
+
+3️⃣ Enumeration
+Used dirsearch
+Discovered /administrator (200 OK)
+
+4️⃣ Login & Flag
+Username: admin
+Password: cupid_arrow_2026
+Accessed admin panel and captured the flag
+Lesson: Always check robots.txt, enumerate directories, and follow clues carefully.
