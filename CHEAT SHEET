@@ -1,0 +1,69 @@
+🧠 OSINT Cheat Sheet (OhSINT Room)
+
+1.) Start With the Given File
+If given an image → extract metadata
+Tool: exiftool image.jpg
+Look for:
+Author / Copyright
+Username
+Device info
+GPS data (if available)
+
+2.) Username Investigation
+Google the username
+Check:
+Twitter / X
+GitHub
+Blogs
+Other social media
+Look for:
+Profile picture
+Bio
+Location
+Shared links
+
+3.)  WiFi / BSSID Investigation
+
+If BSSID is found:
+Go to Wigle.net
+Use Advanced Search
+Enter BSSID
+Retrieve:
+SSID (WiFi name)
+Location data (if available)
+
+4.) GitHub & Code Review
+
+On GitHub:
+Check profile bio (city, email)
+Check repositories
+Read README files
+Inspect commits
+Check for exposed emails
+
+5.) Website Source Code
+
+Right click → View Page Source
+Look for:
+Comments
+Hidden text
+Hardcoded passwords
+Clues in scripts
+
+🔑 Common Data to Extract
+Avatar
+City
+Email
+WiFi SSID
+Holiday location
+Password
+Hosting platform
+
+⚠️ Important Reminders
+Stay passive (no hacking)
+Cross-check information
+Connect small clues logically
+Think like an investigator
+
+🧠 OSINT Mindset
+Observe → Extract → Search → Verify → Connect → Document
