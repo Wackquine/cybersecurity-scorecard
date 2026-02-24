@@ -1,5 +1,7 @@
 For this challenge, we were given a photo of Mohamed Abdullahi Farmaajo shaking hands with Recep Tayyip Erdoğan during a 2017 visit to Turkey. The task was to identify the exact location where the photo was taken, including its name and coordinates.
 
+PHOTO: !(writeup/Sofia Santos OSINT Exercises/Assets/osint-exercise-003-picture.jpg)
+
 I started by performing a reverse image search using Google Images. Instead of focusing only on the two presidents, I looked for similar background details in related news articles. The reverse search led me to an official Turkish government article that referenced the Presidential Complex.
 
 The article I found was:
