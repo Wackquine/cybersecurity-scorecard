@@ -1,69 +1,113 @@
-🧠 OSINT Cheat Sheet (OhSINT Room)
+OSINT Cheat Sheet (Updated)
 
-1.) Start With the Given File
-If given an image → extract metadata
-Tool: exiftool image.jpg
-Look for:
-Author / Copyright
-Username
-Device info
-GPS data (if available)
+1) Start With What You’re Given
+If image:
+- Check metadata (exiftool)
+- Reverse image search (Google, Yandex)
+- Look at background details (buildings, signs, landmarks, shadows, skyline)
 
-2.) Username Investigation
-Google the username
+If name or username:
+- Google it directly
+- Search fullname + reddit
+- Search fullname + twitter
+- Try username variations
+
+2) Reverse Image Search (IMINT)
+Tools:
+- Google Images
+- Yandex
+- TinEye
+
+Focus on:
+- Landmarks
+- Unique buildings
+- Street layouts
+- Vacation spots
+- Architecture
+
+Confirm using:
+- Google Maps
+- Street View
+- Photos tab comparison
+- Building height checks
+
+3) Social Media Investigation
 Check:
-Twitter / X
-GitHub
-Blogs
-Other social media
+- Twitter/X
+- Reddit
+- Bio
+- Profile photo
+- Banner image
+- Tagged people
+- Replies and comments
+
 Look for:
-Profile picture
-Bio
-Location
-Shared links
+- Birthday clues
+- Location hints
+- Holiday posts
+- Pets
+- Relationships
+- Travel history
 
-3.)  WiFi / BSSID Investigation
+Rule: Stay passive. No interaction.
 
-If BSSID is found:
-Go to Wigle.net
-Use Advanced Search
-Enter BSSID
-Retrieve:
-SSID (WiFi name)
-Location data (if available)
+4) GitHub & Code Review
+- Check bio (city, email)
+- Inspect repositories
+- Read README
+- Review commit history (especially deleted commits)
+- Look for exposed emails, keys, wallet addresses
+- Decode PGP keys if present
 
-4.) GitHub & Code Review
+5) WiFi / BSSID Investigation
+If BSSID found:
+- Use Wigle.net
+- Advanced search
+- Retrieve SSID and possible location
 
-On GitHub:
-Check profile bio (city, email)
-Check repositories
-Read README files
-Inspect commits
-Check for exposed emails
+6) Spiderfoot / Automation
+- Run scan on username
+- Check source modules (ex: sfp_accounts)
+- Review discovered linked accounts
 
-5.) Website Source Code
+7) API & Hidden Data
+- Inspect API endpoints (example: shadowban API)
+- View page source
+- Check JSON responses
+- Look for IDs and hidden values
 
-Right click → View Page Source
-Look for:
-Comments
-Hidden text
-Hardcoded passwords
-Clues in scripts
+8) Wayback Machine Method
+- Use old.reddit.com if needed
+- Open Wayback Machine
+- Check older captures
+- Compare versions
+- Look for deleted links and paste IDs
 
-🔑 Common Data to Extract
-Avatar
-City
-Email
-WiFi SSID
-Holiday location
-Password
-Hosting platform
+9) Common Data to Extract
+- Full name
+- Email
+- Username variations
+- Birthdate
+- Location
+- Coordinates
+- WiFi SSID / BSSID
+- Paste ID
+- Passwords in screenshots
+- Building names
+- Height of buildings
 
-⚠️ Important Reminders
-Stay passive (no hacking)
-Cross-check information
-Connect small clues logically
-Think like an investigator
+OSINT Workflow
+Observe
+Extract
+Search
+Verify
+Cross-check
+Confirm
+Document
 
-🧠 OSINT Mindset
-Observe → Extract → Search → Verify → Connect → Document
+Core Principle
+No hacking.
+No interaction.
+Only public data.
+Connect small clues logically.
+Think structured.
