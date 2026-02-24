@@ -1,0 +1,88 @@
+TryHackMeLink: https://tryhackme.com/room/sakura?utm_campaign=social_share&utm_medium=social&utm_content=share-completed-room&utm_source=copy&sharerId=692d67d949c2314779ad896d
+
+Task 2: TIP-OFF
+Objective: Identify the attacker’s username.
+Since this challenge started with an image, my first instinct was to inspect it carefully. I noticed the file format was SVG, which means it’s text-based. Instead of using typical stego tools, I opened the developer tools (F12) to inspect the source directly.
+Inside the SVG code, a directory path immediately stood out. It showed a Linux-style home directory:
+
+/home/XXXX
+That directory name revealed the username.
+
+Answer:
+Username: SakuraSnowAngelAiko
+
+Task 3: RECONNAISSANCE
+Objective: Find the attacker’s email address and full real name.
+
+Now that I had the username, I searched it online. The results showed links pointing to a GitHub account and a LinkedIn profile.
+On GitHub, I found a repository related to PGP. That was a strong clue. PGP repositories often contain public keys, which can reveal metadata such as a real name and email address.
+I copied the public key and used an online GPG decoder to extract the details.
+
+From the decoded key and LinkedIn profile, I confirmed:
+
+Answer:
+Full Name: Aiko Abe
+Email: SakuraSnowAngel83@protonmail.com
+
+Task 4: UNVEIL
+
+Objective: Find the attacker’s cryptocurrency wallet address, crypto used, and the mining pool that paid them on January 23, 2021.
+
+The instructions mentioned that the attacker had started deleting information. That meant commit history might contain useful data.
+Inside the GitHub repositories tab, I noticed a repository named “ETH.” It only had one line of code, which made it suspicious. After checking the commit history, I found deleted content containing a mining configuration string:
+stratum://0xa102397dbeeBeFD8cD2F73A89122fCdB53abB6ef.Aiko:pswd@eu1.ethermine.org:4444
+
+The long hexadecimal string starting with 0xa looked like a wallet address. Searching it led me to a blockchain explorer site where I could view transaction details.
+
+From there, I confirmed:
+
+The wallet address
+The cryptocurrency used (Ethereum, plus some Tether transactions)
+The mining pool (Ethermine)
+
+Answer:
+
+Wallet Address: 0xa102397dbeeBeFD8cD2F73A89122fCdB53abB6ef
+Crypto Used: Ethereum (with some Tether transactions)
+Mining Pool (Jan 23, 2021): Ethermine
+
+Task 5: TAUNT
+
+Objective: Find the attacker’s current Twitter handle, the URL where WiFi SSIDs/passwords were saved, and the BSSID of their home WiFi.
+We were given an image with a Twitter handle. I searched for it and quickly found updated information.
+
+From the search results:
+Twitter Handle: SakuraLoverAiko
+Further investigation led to a dark web paste site. After accessing it via Tor Browser, I found a list of WiFi SSIDs and passwords.
+To get the BSSID (MAC address), I used WiFi network search tools and searched for the specific SSID listed. The Net ID matched the BSSID required.
+
+Answer:
+
+Twitter Handle: SakuraLoverAiko
+Onion URL: depasteon6cqgrykzrgya52xglohg5ovyuyhte3ll7hzix7h5ldfqsyd.onion/show.php?md5=0a5c6e136a98a60b8a21643ce8c15a74
+BSSID: 84:AF:EC:34:FC:F8
+
+Task 6: HOMEBOUND
+
+Objective: Identify:
+Closest airport before the posted flight photo
+Last layover airport
+Lake seen on the map
+The city the attacker considers home
+On Twitter, I found a photo posted before a flight. In the background, I noticed a recognizable monument. A quick visual comparison confirmed it was in Washington, D.C.
+
+The closest airport to that monument is Ronald Reagan Washington National Airport (DCA).
+
+For the layover image, I used reverse image search tools. The results matched the Japan Airlines Sakura Lounge at Haneda Airport (HND).
+The map image showed a lake in Japan. After comparing map shapes and landmarks, it matched Lake Inawashiro.
+From earlier WiFi information, the SSID included “HIROSAKI_Free_Wi-Fi,” indicating the home city.
+
+Answer:
+
+Closest Airport: DCA
+
+Layover Airport: HND
+
+Lake: Lake Inawashiro
+
+Home City: Hirosaki
