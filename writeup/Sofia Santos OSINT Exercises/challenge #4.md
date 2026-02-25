@@ -1,7 +1,9 @@
 OSINT Exercise #004 Write-up
 https://gralhix.com/list-of-osint-exercises/osint-exercise-004/
+
 Date: Feb.14,2026
-Image: writeup/Sofia Santos OSINT Exercises/Assets/Exercise #4.webp
+
+Image: ![writeup/Sofia Santos OSINT Exercises/Assets/Exercise #4.webp](https://github.com/Wackquine/cybersecurity-scorecard/blob/045d828705eb0934eed4802a4ec42520541bff54/writeup/Sofia%20Santos%20OSINT%20Exercises/Assets/Exercise%20%234.webp)
 
 For this challenge, we were given a photo of a resort located on an island. The goal was to identify the resort name, the island’s coordinates, and the camera’s facing direction.
 
@@ -22,8 +24,7 @@ Step 2: Finding the Location
 After confirming the resort name, I checked the Facebook page for location details. The page indicated where the resort was located.
 
 I then searched for Oan Resort on Google Maps and opened it in Google Earth to get a clearer satellite view. By matching the shoreline, surrounding landscape, and nearby features with the challenge image, I confirmed the exact island.
-photo: !(writeup/Sofia Santos OSINT Exercises/Assets/Exercuse #4 Coordinates.png)
-Answer (b):
+photo: ![](https://github.com/Wackquine/cybersecurity-scorecard/blob/045d828705eb0934eed4802a4ec42520541bff54/writeup/Sofia%20Santos%20OSINT%20Exercises/Assets/Exercise%20%234%20Coordinates.png)
 Coordinates of the island: 7.36421, 151.75671
 
 Step 3: Determining Camera Direction
@@ -31,7 +32,7 @@ Step 3: Determining Camera Direction
 Using Google Earth, I adjusted the view to match the angle seen in the original photo. By comparing the coastline shape and nearby land formations, I determined the direction the camera must have been facing.
 
 Based on the positioning of the shoreline and surrounding land, the camera was facing west.
-photo: !(writeup/Sofia Santos OSINT Exercises/Assets/Exercise #4 Angle.png)
+photo: ![](https://github.com/Wackquine/cybersecurity-scorecard/blob/045d828705eb0934eed4802a4ec42520541bff54/writeup/Sofia%20Santos%20OSINT%20Exercises/Assets/Exercise%20%234%20Angle.png)
 Answer (c):
 West
 
