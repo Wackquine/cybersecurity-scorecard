@@ -1,3 +1,7 @@
+TryHackMe OSINT Challenge Write-up
+https://tryhackme.com/room/somesint?utm_campaign=social_share&utm_medium=social&utm_content=share-completed-room&utm_source=copy&sharerId=692d67d949c2314779ad896d
+Date: Feb, 13,2026
+
 Task 1 was just an overview of the room. It explained the prerequisites like critical thinking, Google skills, and Python/Spiderfoot setup. The flag format is ks{flag}. No solving needed here.
 
 Task 2 introduced the story. I was hired by ks{H} and the target was ks{Thomas Straussman}.
