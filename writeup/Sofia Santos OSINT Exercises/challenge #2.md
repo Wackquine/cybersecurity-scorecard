@@ -1,13 +1,16 @@
 OSINT Exercise #002 Write-up
 https://gralhix.com/list-of-osint-exercises/osint-exercise-002/
+
 Date: Feb.13,2026
 
 !(writeup/Sofia Santos OSINT Exercises/Assets/Challenge #2)
 
 a) What is the name of the train station seen in the photo?
+
 b) What is the name and height of the tallest structure seen in the photo?
+
 Exercise #002
-!(writeup/Sofia Santos OSINT Exercises/Assets/Screenshot 2026-02-24 153327.png)
+!(https://github.com/Wackquine/cybersecurity-scorecard/blob/9e325697e5099e5b3890bf35508873fa39a7fb16/writeup/Sofia%20Santos%20OSINT%20Exercises/Assets/Exercise%20%232.png)
 
 
 First, I zoomed into the image and searched for the words “Flinders Street Station” that were visible in the photo. That led me to Flinders Street Railway Station in Melbourne, Australia. I opened Google Maps and compared the surroundings, tracks, and nearby buildings with the original image. The layout matched, and after checking similar photos online, I confirmed that the picture was taken at Flinders Street Railway Station, specifically around Platform 5.
