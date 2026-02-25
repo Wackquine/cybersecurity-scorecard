@@ -1,10 +1,12 @@
 OSINT Exercise #003 Write-up
+
 https://gralhix.com/list-of-osint-exercises/osint-exercise-003/
+
 Date: Feb. 14,2026
 
 For this challenge, we were given a photo of Mohamed Abdullahi Farmaajo shaking hands with Recep Tayyip Erdoğan during a 2017 visit to Turkey. The task was to identify the exact location where the photo was taken, including its name and coordinates.
 
-PHOTO: !(writeup/Sofia Santos OSINT Exercises/Assets/osint-exercise-003-picture.jpg)
+![writeup/Sofia Santos OSINT Exercises/Assets/osint-exercise-003-picture.jpg](https://github.com/Wackquine/cybersecurity-scorecard/blob/3915d9e5e3afdebfb7c822afe38ef4fb05a162ad/writeup/Sofia%20Santos%20OSINT%20Exercises/Assets/Exercise%20%233.jpg)
 
 I started by performing a reverse image search using Google Images. Instead of focusing only on the two presidents, I looked for similar background details in related news articles. The reverse search led me to an official Turkish government article that referenced the Presidential Complex.
 
@@ -12,11 +14,11 @@ The article I found was:
 https://www.iletisim.gov.tr/english/haberler/detay/ethiopian-pm-ahmed-ali-at-the-presidential-complex
 
 Although the article featured a different event, it mentioned the Presidential Complex and included photos with architectural details similar to the one in the challenge image.
-
+![CLUE](https://github.com/Wackquine/cybersecurity-scorecard/blob/3915d9e5e3afdebfb7c822afe38ef4fb05a162ad/writeup/Sofia%20Santos%20OSINT%20Exercises/Assets/Exercise%20%233%20Clue.png)
 To confirm, I opened Google Maps and searched for the Presidential Complex in Turkey. I checked the photos section and compared the building structure, entrance design, pillars, and surroundings with the challenge image. The architectural features matched.
 
 Based on this verification, the location is the Presidential Complex (Cumhurbaşkanlığı Külliyesi) in Ankara, Turkey.
-
+![](https://github.com/Wackquine/cybersecurity-scorecard/blob/3915d9e5e3afdebfb7c822afe38ef4fb05a162ad/writeup/Sofia%20Santos%20OSINT%20Exercises/Assets/Exercise%20%233%20Answer.png)
 Coordinates:
 39.9309° N, 32.7995° E
 
