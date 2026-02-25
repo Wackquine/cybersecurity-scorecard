@@ -4,7 +4,7 @@ Date: Feb.13,2026
 
 From the tweet, we were only given a photo and a short caption. Two key clues stood out: “morning” and “Kiffa.” Since the sun rises in the east, a morning photo suggests the camera was facing south based on the direction of the shadows.
 
-!(writeup/Sofia Santos OSINT Exercises/Assets/#1Plan.png)
+!(https://github.com/Wackquine/cybersecurity-scorecard/blob/37277d7a7283e649746d68d636d8f04d136514b2/writeup/Sofia%20Santos%20OSINT%20Exercises/Assets/Exercise%20%231%20Sketch.png)
 
 In the image, I noticed buildings on both sides of the road, a tree directly behind the right-side building, and a dry environment with a visible tree line in the distance. There was also a road cutting through the trees and curving slightly right.
 
