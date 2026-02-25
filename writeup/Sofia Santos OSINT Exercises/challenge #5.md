@@ -1,6 +1,8 @@
 Sofia Santos Challenge #5 Write-up
 https://gralhix.com/list-of-osint-exercises/osint-exercise-005/
 
+Date: Feb.21,2026
+
 For this challenge, we were given a screenshot from a zoo live cam showing polar bears. The image was taken on January 15, 2023 at around 2 PM local time. The task was to identify the zoo, the temperature at that time, and the exact coordinates of where the bears were lying down.
 
 Step 1: Identify the Zoo
@@ -8,8 +10,7 @@ Step 1: Identify the Zoo
 I started by using RevEye reverse image search on the screenshot. One of the results led me to an Instagram post:
 https://www.instagram.com/p/C3skhpAr-19/?img_index=3
 Photo:
-!(writeup/Sofia Santos OSINT Exercises/Assets/Exercise #5 Instagram Photo.png)
-!()
+![](https://github.com/Wackquine/cybersecurity-scorecard/blob/6bd9c2ad61b3d9c0df10d1c1db350efdd400188c/writeup/Sofia%20Santos%20OSINT%20Exercises/Assets/Exercise%20%235%20Instagram%20Photo.png)
 From that post and related images, I confirmed that the location was the San Diego Zoo.
 
 Answer (a):
@@ -19,9 +20,10 @@ Step 2: Find the Temperature
 
 After confirming the zoo, I searched for historical weather data for San Diego Zoo on January 15, 2023. I used this website:
 https://www.timeanddate.com/weather/@5391874/historic?month=1&year=2023
+
 PHOTO:
-!(writeup/Sofia Santos OSINT Exercises/Assets/Exercise #5 Historical Temp.png)
-!(writeup/Sofia Santos OSINT Exercises/Assets/Exercise #5 Temp Answer.png)
+![](https://github.com/Wackquine/cybersecurity-scorecard/blob/6bd9c2ad61b3d9c0df10d1c1db350efdd400188c/writeup/Sofia%20Santos%20OSINT%20Exercises/Assets/Exercise%20%235%20Historical%20Temp.png))
+![](https://github.com/Wackquine/cybersecurity-scorecard/blob/6bd9c2ad61b3d9c0df10d1c1db350efdd400188c/writeup/Sofia%20Santos%20OSINT%20Exercises/Assets/Exercise%20%235%20Temp%20Answer.png))
 From the historical data for around 2 PM local time, the temperature was 15°C.
 
 Answer (b):
@@ -33,9 +35,9 @@ Next, I located a map and infographic of the San Diego Zoo to determine where th
 
 I matched the enclosure layout and viewing angle from the screenshot with the satellite imagery. By adjusting the camera angle in Google Earth to replicate the perspective from the live cam, I identified the exact spot where the bears were lying down.
 Photos:
-![Zoo Map](writeup/Sofia Santos OSINT Exercises/Assets/Exercise #5 Zoo Map Infographic.png)
-!(writeup/Sofia Santos OSINT Exercises/Assets/Exercise #5 Coordinates.png)
-!(writeup/Sofia Santos OSINT Exercises/Assets/Exercise #5 Google Earth.png)
+![Zoo Map](https://github.com/Wackquine/cybersecurity-scorecard/blob/6bd9c2ad61b3d9c0df10d1c1db350efdd400188c/writeup/Sofia%20Santos%20OSINT%20Exercises/Assets/Exercise%20%235%20Zoo%20Map%20Infographic.png))
+![](https://github.com/Wackquine/cybersecurity-scorecard/blob/6bd9c2ad61b3d9c0df10d1c1db350efdd400188c/writeup/Sofia%20Santos%20OSINT%20Exercises/Assets/Exercise%20%235%20Coordinates.png)
+![](https://github.com/Wackquine/cybersecurity-scorecard/blob/6bd9c2ad61b3d9c0df10d1c1db350efdd400188c/writeup/Sofia%20Santos%20OSINT%20Exercises/Assets/Exercise%20%235%20Google%20Earth.png)
 Answer (c):
 32.734440128741525, -117.15459515703158
 
