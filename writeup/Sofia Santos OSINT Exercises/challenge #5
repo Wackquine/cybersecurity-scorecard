@@ -1,0 +1,41 @@
+Sofia Santos Challenge #5 Write-up
+
+For this challenge, we were given a screenshot from a zoo live cam showing polar bears. The image was taken on January 15, 2023 at around 2 PM local time. The task was to identify the zoo, the temperature at that time, and the exact coordinates of where the bears were lying down.
+
+Step 1: Identify the Zoo
+
+I started by using RevEye reverse image search on the screenshot. One of the results led me to an Instagram post:
+https://www.instagram.com/p/C3skhpAr-19/?img_index=3
+Photo:
+!(writeup/Sofia Santos OSINT Exercises/Assets/Exercise #5 Instagram Photo.png)
+!()
+From that post and related images, I confirmed that the location was the San Diego Zoo.
+
+Answer (a):
+San Diego Zoo
+
+Step 2: Find the Temperature
+
+After confirming the zoo, I searched for historical weather data for San Diego Zoo on January 15, 2023. I used this website:
+https://www.timeanddate.com/weather/@5391874/historic?month=1&year=2023
+PHOTO:
+!(writeup/Sofia Santos OSINT Exercises/Assets/Exercise #5 Historical Temp.png)
+!(writeup/Sofia Santos OSINT Exercises/Assets/Exercise #5 Temp Answer.png)
+From the historical data for around 2 PM local time, the temperature was 15°C.
+
+Answer (b):
+15°C
+
+Step 3: Find the Exact Coordinates
+
+Next, I located a map and infographic of the San Diego Zoo to determine where the polar bear enclosure was located. After identifying the correct zone, I opened Google Maps and then switched to Google Earth for a better satellite view.
+
+I matched the enclosure layout and viewing angle from the screenshot with the satellite imagery. By adjusting the camera angle in Google Earth to replicate the perspective from the live cam, I identified the exact spot where the bears were lying down.
+Photos:
+![Zoo Map](writeup/Sofia Santos OSINT Exercises/Assets/Exercise #5 Zoo Map Infographic.png)
+!(writeup/Sofia Santos OSINT Exercises/Assets/Exercise #5 Coordinates.png)
+!(writeup/Sofia Santos OSINT Exercises/Assets/Exercise #5 Google Earth.png)
+Answer (c):
+32.734440128741525, -117.15459515703158
+
+This challenge required reverse image search, historical weather verification, and careful satellite map comparison to determine precise coordinates.
