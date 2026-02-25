@@ -1,0 +1,63 @@
+TryHackMe OSINT Challenge Write-up
+https://tryhackme.com/room/ohsint?utm_campaign=social_share&utm_medium=social&utm_content=share-completed-room&utm_source=copy&sharerId=692d67d949c2314779ad896d
+Date: Feb 12,2026
+Step 1: Analyze the Given File
+
+The challenge provided only an image file. Since no other information was given, the first step was to extract the metadata. I used an online Exiftool to analyze the image.
+
+From the metadata, I found useful information in the copyright section. It revealed the username OWoodflint.
+
+Step 2: Investigate the Username
+
+I searched for “OWoodflint” on Google and found a Twitter (X) profile. The profile picture was a cat, which answered the first question.
+
+Q1. What is this user’s avatar of?  
+Answer: Cat
+
+Step 3: Check GitHub
+
+Next, I searched for the same username on GitHub. I found the user’s GitHub profile, which contained additional personal information.
+
+From the GitHub profile:
+- The city listed was London.
+- The personal email address was visible.
+
+Q2. What city is this person in?  
+Answer: London  
+
+Q4. What is his personal email address?  
+Answer: OWoodflint@gmail.com  
+
+Q5. What site did you find his email address on?  
+Answer: GitHub  
+
+Step 4: Investigate the BSSID
+
+On the Twitter profile, the user had posted a WiFi BSSID. Using this information, I went to Wigle.net and performed an advanced search using the BSSID under the Network Characteristics section.
+
+The query returned the associated SSID.
+
+Q3. What is the SSID of the WAP he connected to?  
+Answer: UnileverWifi  
+
+Step 5: Check the Blog
+
+I then examined the user’s blog. From the blog posts, I found that he had gone on holiday to New York.
+
+Q6. Where has he gone on holiday?  
+Answer: New York  
+
+While inspecting the blog, I viewed the page source code. In the source code, I found a leaked password hidden within the HTML.
+
+Q7. What is the person’s password?  
+Answer: pennYDr0pper.!  
+
+Summary
+
+This challenge demonstrated basic OSINT methodology:
+- Extract metadata from files
+- Investigate usernames across platforms
+- Use WiFi lookup tools like Wigle
+- Inspect website source code for hidden data
+
+It reinforced the importance of checking metadata, cross-platform searching, and careful inspection of publicly available information.
