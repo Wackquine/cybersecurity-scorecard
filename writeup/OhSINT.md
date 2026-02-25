@@ -1,6 +1,9 @@
 TryHackMe OSINT Challenge Write-up
+
 https://tryhackme.com/room/ohsint?utm_campaign=social_share&utm_medium=social&utm_content=share-completed-room&utm_source=copy&sharerId=692d67d949c2314779ad896d
+
 Date: Feb 12,2026
+
 Step 1: Analyze the Given File
 
 The challenge provided only an image file. Since no other information was given, the first step was to extract the metadata. I used an online Exiftool to analyze the image.
