@@ -1,6 +1,6 @@
 # 📊 Individual Progress Scorecard
 
-Total Points: 65
+Total Points: 55
 
 ## Daily Training Log
 
@@ -30,13 +30,13 @@ Total Points: 65
 | Difficulty | Challenges Solved | Points Earned |
 |------------|------------------|---------------|
 | Easy       | 0 × 5 pts        | 0             |
-| Medium     | 0 × 15 pts       | 0            |
-| Hard       | 1 × 30 pts       | 30             |
+| Medium     | 1 × 15 pts       | 15            |
+| Hard       | 0 × 30 pts       | 0             |
 | Expert     | 0 × 50 pts       | 0             |
-| **Daily Total** |              | **30**        |
+| **Daily Total** |              | **15**        |
 
 **Completed:**
-- [https://github.com/Wackquine/cybersecurity-scorecard/blob/9dbf130905b4bb5e9837d76867692be678e94b41/writeup/Sofia%20Santos%20OSINT%20Exercises/challenge%20%2314.md](https://github.com/Wackquine/cybersecurity-scorecard/blob/99087d185b698d1202cd983fd5102fb40c5e22d6/writeup/Sofia%20Santos%20OSINT%20Exercises/challenge%20%2316.md)
+- https://github.com/Wackquine/cybersecurity-scorecard/blob/2d633e91b17faad7d625e707eed97e9fcb94bc87/writeup/Sofia%20Santos%20OSINT%20Exercises/challenge%20%2323.md
 
 ---
 
